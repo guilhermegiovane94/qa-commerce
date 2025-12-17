@@ -4,8 +4,10 @@
   "description": "Projeto de simulação de aulas de QA",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js",
-    "db": "node scripts/init_db.js"
+    "db": "node scripts/init_db.js",
+    "start:server": "node src/server.js",
+    "cy:open": "cypress open",
+    "start": "npm run db && npm run start:server && npm run cy:open"
   },
   "keywords": [],
   "author": "",
