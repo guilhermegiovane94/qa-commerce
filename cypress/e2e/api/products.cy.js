@@ -4,7 +4,6 @@
 describe('API - Produtos', () => {
   it('Deve retornar lista de produtos com status 200', () => {
     cy.getApi('produtos').then((response) => {
-      console.log(expect(response.body.products).to.have.length.greaterThan(0))
       expect(response.status).to.eq(200)
       expect(response.body.products).to.be.an('array')
       expect(response.body.products).to.have.length.greaterThan(0)

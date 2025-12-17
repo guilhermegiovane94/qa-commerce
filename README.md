@@ -1,42 +1,40 @@
-# QA-Commerce
+QA-Commerce
+===========
 
-### Loja virtual Geek para simulação de testes 
+Loja virtual Geek desenvolvida para simulação e prática de testes de software (manuais e automatizados).
+Este projeto é um fork de um repositório original, adaptado para fins de estudo e prática.
 
-## Clonando e executando em sua máquina
+Clonando e executando o projeto
+-------------------------------
 
-### Pré-requisito:
+Pré-requisitos
 
--Node.js - Você encontra em: https://nodejs.org/en/
--Visual Studio Code ( ou editor de sua prefrência) - você encontra em: https://code.visualstudio.com/download
--Git: você encontra em: https://git-scm.com/downloads
+- Node.js – disponível em: https://nodejs.org/en/
+- Git – disponível em: https://git-scm.com/downloads
+- Visual Studio Code (ou outro editor de sua preferência) – disponível em: https://code.visualstudio.com/download
 
-Via terminal, rode os seguintes comandos:
-```  
-git clone https://github.com/fabioaraujoqa/qa-commerce.git
-```
-```
-cd qa-commerce
-```
+Passo a passo
 
-#### Para instalar as dependencias:
-```
-npm install 
-```
+1. Clone o repositório:
 
-#### Para subir o servidor e o banco:
-```
-npm start
-```
+   git clone https://github.com/fabioaraujoqa/qa-commerce.git
 
-No console vai aparecer os endereços do site e do banco. 
-O site você acessaem: http://localhost:3000/
+2. Acesse a pasta do projeto:
 
-A documentação funciona em: http://localhost:3000/api-docs/
+   cd qa-commerce
 
-*Parceria: Fábio Araújo, Bruna Emerich e Tamara Fontanella
+3. Instale as dependências:
 
+   npm install
 
+4. Inicie o servidor (aplicação e banco):
 
+   npm start
 
+Após subir o servidor, serão exibidos no console os endereços da aplicação e do banco de dados.
 
+- Aplicação web: http://localhost:3000/
+- Documentação da API (Swagger): http://localhost:3000/api-docs/
 
+------------------------------------------------------------
+Projeto desenvolvido em parceria por Fábio Araújo, Bruna Emerich e Tamara Fontanella.
